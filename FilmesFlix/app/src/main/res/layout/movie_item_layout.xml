@@ -15,7 +15,8 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/movieImage"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="16:9"
             tools:src="@tools:sample/avatars"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"

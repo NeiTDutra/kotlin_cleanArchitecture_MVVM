@@ -1,7 +1,8 @@
-package com.br.natanfc.filmesflix
+package com.br.natanfc.filmesflix.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.br.natanfc.filmesflix.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
