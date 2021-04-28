@@ -9,10 +9,10 @@ class MovieRestApiTask {
 
     }
 
-    private fun moviesProvide(): Retrofit = Retrofit.Builder()
+    private fun moviesProvider(): Retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-    fun retrofitApi(): MovieApi = moviesProvide().create(MovieApi::class.java)
+    fun retrofitApi(): MovieApi = moviesProvider().create(MovieApi::class.java)
 }
