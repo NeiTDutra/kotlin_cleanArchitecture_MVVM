@@ -2,4 +2,4 @@
 
 Bootcamp evelis kotlin developer da Digital Innovation One Inc.
 
-... Em desenvolvimento...
+Conclusão: arquitetura organizada
